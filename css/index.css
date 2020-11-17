@@ -31,18 +31,22 @@ box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.header li{
+.header a:link{
+    text-decoration: none;
+}
+.header a{
+    color: black;
     float: right;
     display: block;
     padding: 22px;
     text-align: center;
 }
-.header li:hover{
+.header a:hover{
 color: rgb(138, 44, 28);
 cursor: pointer;
 
 }
-.header li:active { 
+.header a:active { 
     transform: scale(0.98); 
 }
 /* banner */
@@ -145,4 +149,51 @@ cursor: pointer;
 text-align: center;
 font-weight: 50;
 height: 40px;
+}
+/* ........................... */
+
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+.content h3{
+
+    background-color: sienna;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.content img:hover{
+    display: block;
+    box-shadow: -1px -1px 4px 7px lightsalmon;
+    width: 51%;
+    margin-top: 30px;
+
+    
+    
+}
+
+/* ----------------------------about--------------------------------------*/
+
+div.row {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.row img {
+    width: 100%; 
+    border-radius: 5px
+}
+.row table {
+    width: 100%; 
+    border-spacing: 0;
 }
