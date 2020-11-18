@@ -6,17 +6,20 @@ box-sizing: border-box;
 
 
 }
+
 .headers img:hover {
     cursor: pointer;
 }
 
 .headers img{
     margin-left:30px;
+    padding-top: 10px;
 }
 
 .header{
     overflow: hidden;
     background-color: white;
+    position: relative;
 
 }
 
@@ -42,8 +45,9 @@ box-sizing: border-box;
     text-align: center;
 }
 .header a:hover{
-color: rgb(138, 44, 28);
-cursor: pointer;
+    background-color:rgb(138, 44, 28);
+    color: #ffffff;
+    cursor: pointer;
 
 }
 .header a:active { 
@@ -54,16 +58,18 @@ cursor: pointer;
     background-image: url("/images/Background2.jpg");
     background-repeat: no-repeat, repeat;
     background-color:#333;
-    /* background-position: center; */
+    background-position: right;
     background-size: cover;
-    height: 700px;
+    height: 670px;
     width: 100vw;
     padding: 30px;
+    position: relative;
+
 }
 
 .first-banner{
     margin: 25px 110px  0px 50px;
-    height: 500px;  
+    height: auto;  
     float: left;
 }
 
@@ -74,9 +80,13 @@ cursor: pointer;
     margin-top: 100px;
     float: left;
     color:#fff;
+    overflow-y: hidden;
+}.second-banner-one h1{
+    margin: 15px 10px;
 }
 .second-banner-one h4{
     margin: 15px 10px;
+    padding-right: 50px;
 }
 .two-blocks{
     margin-top: 0px 20px;
@@ -131,16 +141,23 @@ cursor: pointer;
     margin: 10px;
 
 }
-.branch a{
+.branch h5{
     font-weight:bold;
 }
-.branch li{
-    padding-top: 15px;
+.seperate{
+    margin-top: 15px;
 }
-.branch li:active{
+.seperate a{
+    padding-top: 15px;
+    color: black;
+}
+.seperate:active{
     transform: scale(0.98); 
 }
-.branch li:hover{
+.seperate a:link{
+    text-decoration: none;
+}
+.seperate a:hover{
     color:rgb(138, 44, 28);
     cursor: pointer;   
 }
@@ -186,7 +203,7 @@ height: 40px;
 /* ----------------------------about--------------------------------------*/
 
 div.row {
-    max-width: 1250px;
+    width:100%;
     margin: 0 auto;
 }
 .row img {
@@ -196,4 +213,9 @@ div.row {
 .row table {
     width: 100%; 
     border-spacing: 0;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .second-banner-one {width:0px}
 }
