@@ -246,6 +246,19 @@ div.row {
     margin: 10px;
 }
 
+/* .containers{
+    padding: 2px 16px;
+} */
+
+.containers .btn{
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    /* margin-top: 30px; */
+    text-decoration: none;
+    padding: 10px 5px;
+}
 .cards:hover{
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
@@ -262,7 +275,7 @@ div.row {
         width: 100%;
     }
     .cards{
-        width: 96%;
+        width: 95%;
     }
 }
 
