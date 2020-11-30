@@ -270,7 +270,7 @@ div.row {
 }
 
 /* Resonsive branch */
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     .cards{
         width: 91%;
     }
@@ -284,6 +284,8 @@ div.row {
     }
 }
 
-@media only screen and (max-width: 1500px) {
-    .second-banner-one {width:0px}
+@media only screen and (max-width: 100px) {
+    .second-banner-one {
+        width:0%;
+    }
 }
