@@ -12,7 +12,7 @@ box-sizing: border-box;
 }
 
 .headers img{
-    margin-left:30px;
+    margin-left:139px;
     padding-top: 10px;
 }
 
@@ -26,7 +26,7 @@ box-sizing: border-box;
 .right-header{
     float: right;
     color: black;
-    padding-right: 20px;
+    padding-right: 139px;
 }
 .header ul{
     overflow-y:hidden;
